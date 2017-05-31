@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">飞鱼漫画</string>
+    <!-- 框架需要 -->
+    <string name="loadingFail">加载失败，请下拉刷新</string>
+    <string name="notMessage">还没有数据哦</string>
+    <string name="upToloadMore">正在加载更多</string>
+    <!-- 结束 -->
+
+    <string name="popupwindow_name">投诉邮箱：</string>
+    <string name="popupwindow_content">307460532@qq.com</string>
+
+    <string name="cartoon">漫画</string>
+    <string name="search">搜索</string>
+    <string name="mine">我的</string>
+    <string name="home">首页</string>
+    <string name="popularity">人气</string>
+    <string name="inputSearch">请输入漫画名字</string>
+    <string name="sure">确定</string>
+
+    <string name="userProtocal">用户协议</string>
+    <string name="complaintPho">投诉电话</string>
+    <string name="clearCach">清除缓存</string>
+    <string name="aboutUs">关于我们</string>
+    <string name="buyVipToRead">开通VIP阅读此书</string>
+    <string name="userProduct">用户协议</string>
+
+    <string name="uWillPay">您将购买VIP的服务</string>
+    <string name="payWx">微信支付</string>
+    <string name="payNow">立即支付</string>
+    <string name="payZFB">支付宝支付</string>
+    <string name="payCenter">支付中心</string>
+    <string name="vip">VIP</string>
+    <string name="noSelect">没找到对应漫画</string>
+    <string name="userAgreement">        在使用xxapp(以下简称xxapp)时,请您务必仔细阅读并透彻理解本声明.
+        您可以选择不使用xxapp, 但您如果使用xxapp,您的行为将被视为对本声明的全部认可. 　xxapp中的视频均为
+        xxapp以非人工检索的方式、根据您选择或键入的关键 字自动生成到第三方网页的链接,除xxapp注明之服务条款外,
+        其他一切因使用xxapp而可能遭致的意外、疏忽、侵权及其造成的损失(包括因 下载搜索链接到的第三网站的内容而
+        感染到的病毒),xxapp对其概不负责,亦不承担任何法律责任.任何通过使用xxapp而搜索链接到的第三方 网页均系他人
+        制作或提供,您可能从该第三方网页上获得视频及享用服务,xxapp对其合法性概不负责,亦不承担任何法律责任.xxapp
+        搜索结果 根据您选择或键入的关键字自动搜索获得并生成,不代表xxapp赞成被搜索到的第三网页上的内容或立场.您应
+        该对搜索引擎的结果自行承担风险.xxapp不做任何形式的保证;不保证搜索结果满足您的要求,不保证搜索服务不中断;
+        不保证搜索结果的安全性,正确性、及时性、合法性. 因网络状况,通讯线路、第三网站等任何原因而导致您不能正常使
+        用xxapp,xxapp不承担任何法律责任.xxapp尊重并保护所有使用xxapp 用户的个人隐私权,您注册的个人资料,非经您亲
+        自许可或根据相关法律、法规的强制性规定,xxapp不会主动的泄漏给第三方.xxapp提醒您;您在使用搜索引擎时输入的
+        关键字将不被认为是您的个人隐私资料.任何网站如果不想被xxapp收录(即不被搜索到)应及时向xxapp 反映,否则,xxapp
+        将依照惯例视其为可收录网站.任何单位或者个人认为通过xxapp链接所搜索到的第三方网页内容可能涉嫌侵犯其信 息网
+        络传播权,应及时向xxapp提出书面权利通知,并提出身份证明,权属证明及详细侵权情况证明.xxapp在收到上述法律文件
+        后,将会依法尽快断开相关链接内容.</string>
+    <string name="title_activity_main3">Main3Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

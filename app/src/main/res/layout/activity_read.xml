@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:transitionName="readContent"
+    android:layout_height="match_parent">
+
+    <com.csd.activityread.TryViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/llHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3000"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/navHeight"
+            android:layout_width="1dp"
+            android:layout_height="0dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp">
+
+            <ImageView
+                android:id="@+id/ivReadBack"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@mipmap/yd_icon_back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/tvName"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="小林家的龙女仆" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llBottom"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:background="#3000"
+        android:gravity="center_vertical">
+
+        <SeekBar
+            android:id="@+id/sb"
+            android:layout_width="match_parent"
+            android:maxHeight="2dp"
+            android:minHeight="2dp"
+            android:layout_height="wrap_content"
+            android:progressDrawable="@drawable/progressbar"
+            android:thumb="@drawable/progressthumb" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/head_view"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/selectCartoon"
+            android:paddingTop="2dp"
+            android:drawableTop="@drawable/main_bottom_cartoondrawable"
+            android:layout_width="0dp"
+            android:textColor="@color/bottomselect"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/cartoon" />
+
+        <TextView
+            android:id="@+id/selectSearch"
+            android:layout_width="0dp"
+            android:paddingTop="2dp"
+            android:drawableTop="@drawable/main_bottom_viprawable"
+            android:textColor="@color/bottomselect"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/vip" />
+
+        <TextView
+            android:id="@+id/selectMine"
+            android:layout_width="0dp"
+            android:paddingTop="2dp"
+            android:drawableTop="@drawable/main_bottom_minerawable"
+            android:textColor="@color/bottomselect"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/mine" />
+    </LinearLayout>
+
+</LinearLayout>
